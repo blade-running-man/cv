@@ -24,9 +24,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
   
-env:
-  NEXT_PUBLIC_ANALYTICS_ID: ${{ secrets.NEXT_PUBLIC_ANALYTICS_ID }}
-
 jobs:
   # Build job
   build:
